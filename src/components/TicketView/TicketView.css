@@ -1,0 +1,41 @@
+.ticketview {
+    margin: 15px;
+}
+
+.ticketview p {
+    font-size: 1.2em !important;
+    color: rgb(70, 71, 77)
+}
+
+.ticketview p a {
+    color: #6D7FCC
+}
+
+strong {
+    font-weight: 600;
+}
+
+#buttons-ticket-view a{
+    margin: 0 0 0 8px;
+    padding: 7px 20px;
+}
+
+#buttons-ticket-view a:first-child{
+    background-color: #ffce39;
+    border-color: #ffce39;
+}
+
+#buttons-ticket-view a:last-child{
+    background-color: #d45864;
+    border-color: #d45864;
+}
+
+@media(max-width:422px) {
+    #buttons-ticket-view a{
+        margin: 10px 0 0 10px;
+        padding: 7px 20px;
+    }
+    #buttons-ticket-view a:first-child{
+        margin: 10px 0 0 0px;
+    }
+}

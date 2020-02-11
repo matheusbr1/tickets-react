@@ -1,0 +1,15 @@
+#buttonSideBar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.toggle-button button{
+    padding: 7px 20px;
+}
+
+@media (min-width:768px) {
+    .toggle-button {
+        display:none;
+    }
+}

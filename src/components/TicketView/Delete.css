@@ -1,0 +1,24 @@
+.btn-message-delete{
+    background-color: rgb(231, 108, 108);
+    color:#fff
+}
+.btn-message-delete:hover{
+    background-color: rgb(240, 62, 62);
+    color:#fff
+}
+
+.btn-message-cancel{
+    background-color: #6d7fcc;
+    color:#fff
+}
+
+.btn-message-cancel:hover{
+    background-color: #3550c9;
+    color:#fff
+}
+
+.alert-warning {
+    color: #4b3904;
+    background-color: #fcf3d8;
+    border-color: #fcf3d8;
+}

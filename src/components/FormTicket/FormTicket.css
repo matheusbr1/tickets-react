@@ -1,0 +1,15 @@
+.alert.alert-danger{
+    margin: 10px 15px;
+}
+
+#messageValidation {
+    margin-left: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

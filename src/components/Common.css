@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.content {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width:769px) {
+    .wrapper {
+        width: 70%;
+        padding: 20px;
+    }
+    .content {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width:1024px) {
+    .wrapper {
+        width: 78%;
+    }
+}
+
+@media (min-width:1200px) {
+    .wrapper {
+        width: 82%;
+    }
+}
+
+@media (min-width:1440px) {
+    .wrapper {
+        width: 84%;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+h4 {
+    margin: 15px;
+}
+
+.nav-pills 
+.nav-link.active, 
+.nav-pills .show > .nav-link, 
+.btn-cfr, 
+a.btn.btn-crf
+,button#sidebarCollapse {
+    color: #fff;
+    background-color: #6d7fcc;
+}
+
+.btn-cfr:hover,
+a.btn.btn-crf:hover, 
+.nav-pills .nav-link.active:hover,
+button#sidebarCollapse:hover  {
+    color: #fff;
+    background-color: #3c50aa;
+}

@@ -1,0 +1,22 @@
+#btn {
+    max-height: 38px;
+    max-width: 49%;
+}
+
+.sended-message {
+    padding: 0 15px;
+}
+
+.btn-message {
+    background-color: #D4EDDA;
+}
+
+.btn-message:hover {
+    background-color: rgb(133, 184, 145)
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
