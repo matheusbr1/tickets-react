@@ -1,4 +1,5 @@
 ## Tickets with React
+![tickets-react](https://user-images.githubusercontent.com/28275815/83931545-afc19b00-a773-11ea-9eca-b187729e9dfa.jpeg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
