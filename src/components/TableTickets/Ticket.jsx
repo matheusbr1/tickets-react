@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Ticket.css'
 
 export default class Ticket extends Component {
 
@@ -17,9 +18,7 @@ export default class Ticket extends Component {
                 <td>{this.nome}</td>
                 <td>{this.responsavel}</td>
                 <td>{this.status}</td>
-                <td><a className="btn btn-crf"  href={'/ticketview?'+this.id} role="button">
-                    Access <i className="fa fa-share-square" aria-hidden="true"></i>
-                </a></td>
+                <td><a className="btn btn-crf"  href={'/ticketview?'+this.id} role="button"><i className="fa fa-share-square" aria-hidden="true"></i></a></td>
             </tr>
         )
     }   

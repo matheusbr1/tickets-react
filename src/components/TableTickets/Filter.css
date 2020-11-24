@@ -1,0 +1,54 @@
+.btn-outline-crf {
+    color: #6d7fcc;
+    border-color: #6d7fcc;
+}
+
+.btn-outline-crf:hover {
+    color: #3c50aa;
+    background-color: #3c50aa;
+    color: #fff;
+}
+
+.form-inline.search {
+    margin-right: 8%;
+}
+
+#select-search {
+    margin-right: 10px;
+}
+
+.form-control.search {
+    display: flex;
+}
+
+@media(max-width:1024px) {
+    table {
+        display: block; 
+    }
+}
+
+@media(max-width:575px) {
+    
+    .bth-search {
+        margin-left: 5px;
+    }
+    .form-inline.search {
+        width: 100%;
+        justify-content: center;
+    }
+    .form-control.search {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .form-select-search {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .form-inline.search {
+        margin-right:0px;
+    }
+    .bth-search {
+        display: none;
+    }
+}

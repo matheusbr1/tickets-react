@@ -1,0 +1,11 @@
+a.btn.btn-crf {
+    padding: 5px 25px;
+}
+
+a.bth-search {
+    color: #6d7fcc;
+}
+
+a.bth-search:hover {
+    color: #fff
+}

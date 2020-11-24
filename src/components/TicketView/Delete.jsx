@@ -8,10 +8,10 @@ export default class Delete extends Component {
         this.database = props.database
         // Captured id from URL
         this.id = window.location.search.slice(1)
-        this.deletar = this.deletar.bind(this)
+        this.delete = this.delete.bind(this)
     }
 
-    deletar () {
+    delete () {
         // Parse int ID because it's string
         this.id = parseInt(this.id)
 
@@ -29,7 +29,7 @@ export default class Delete extends Component {
                 <p className="alert-heading" >Are you sure you want to delete the ticket?</p>
             </div>
             <div className="buttons" >
-                <a  onClick = {this.deletar}
+                <a  onClick = {this.delete}
                     id="btn"
                     href="/opentickets"
                     type="submit" 

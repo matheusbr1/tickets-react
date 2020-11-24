@@ -20,17 +20,13 @@ export default props => {
 
     return (
         <Router>
+            
             <Route exact path="/" render={props => <TableTickets database={ref_database}/>}/>
-
             <Route exact path="/newticket" render={props => <FormTicket database={ref_database}/>}/>
             <Route exact path="/sended" render={props => <SendedMessage/>}/>
-
             <Route exact path="/opentickets" render={props => <TableTickets database={ref_database}/>}/>
-            
             <Route exact path="/ticketview" render={props => <TicketView database={ref_database}/>}/>
-
             <Route exact path="/change" render={props => <Change database={ref_database}/>}/>
-
 
             {/* The Database is Missing the reference because need built a request with it in the component */}
             <Route exact path="/delete" render={props => <Delete database={database}/>}/>

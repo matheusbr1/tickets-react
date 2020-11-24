@@ -1,6 +1,7 @@
 import './TableTickets.css'
 import React, { Component } from 'react'
 import Ticket from './Ticket'
+import Filter from './Filter'
 
 export default class TableTickets extends Component {
 
@@ -37,10 +38,7 @@ export default class TableTickets extends Component {
                 <a className="navbar-brand">
                     <h4>Tickets</h4>
                 </a>
-                <form className="form-inline search">
-                    <input className="form-control search mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-                    <button className="btn btn-outline-crf my-2 my-sm-0 bth-search" type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
-                </form>
+                <Filter database={this.database} />
             </nav>
             <table className="table">
                 <thead>
@@ -52,7 +50,7 @@ export default class TableTickets extends Component {
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>
-                <tbody id="tbory" >     
+                <tbody id="tbory" > 
                 {
                     this.state.tickets.map((ticket) => {
                         return (
@@ -69,6 +67,6 @@ export default class TableTickets extends Component {
                 </tbody>
             </table>
         </div>
-    )
+        )
     }
 }
